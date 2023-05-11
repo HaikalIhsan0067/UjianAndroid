@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                         daftar_nama.add(nama_lengkap);
                     }
                     //daftar_nama.add(nama_lengkap);
-                    //edUmur.setText("");
+                    edUmur.setText("");
                     edNamaDepan.setText("");
                     edNamaBelakang.setText("");
                     intent_list.putStringArrayListExtra("daftar_nama", daftar_nama);
